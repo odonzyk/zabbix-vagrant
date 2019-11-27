@@ -28,8 +28,8 @@ The installed software is:
 
 |component|version|
 |---|---|
-|Ubuntu|**18.04** (Bionic 64-bit)|
-|Mysql|** Ver 15.1 Distrib 10.1.43-MariaDB 9.5.x** (default for Ubuntu 16.04)|
+|Ubuntu|**18.04.3 LTS** (bionic)|
+|Mysql|**Ver 15.1 Distrib 10.1.43-MariaDB 9.5.x**|
 |Zabbix server|**4.0.15**|
 |Zabbix agent|**4.0.15**|
 
