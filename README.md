@@ -39,4 +39,4 @@ Commands used in provision script are based on official documentation:
 * [Installation from sources → Installing frontend](https://www.zabbix.com/documentation/4.0/manual/installation/install#installing_frontend)
 
 
-![alt text](img/zabbix.png "Screenshoot Zabbix")
+![alt text](imgages/zabbix.png "Screenshoot Zabbix")
