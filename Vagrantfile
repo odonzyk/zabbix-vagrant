@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "bento/ubuntu-18.04"
-  config.vm.network "forwarded_port", guest: 80, host: 8090
+  config.vm.network "forwarded_port", guest: 80, host: 8080
   config.vm.provision "shell", inline: <<-SHELL
     # packages
     wget https://repo.zabbix.com/zabbix/4.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_4.0-3+bionic_all.deb
@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
 
     # configure Zabbix
     sudo sed -i "s|^DBName=zabbix|DBName=zabbixdb|; /^# DBPassword=/a \\\\DBPassword=zabbix" /etc/zabbix/zabbix_server.conf
-    sudo sed -i "s|# php_value date.timezone Europe/Berlin|php_value date.timezone Europe/Berlin|" /etc/apache2/conf-enabled/zabbix.conf
+    sudo sed -i "s|# php_value date.timezone Europe/Riga|php_value date.timezone Europe/Berlin|" /etc/apache2/conf-enabled/zabbix.conf
     sudo cat > /usr/share/zabbix/conf/zabbix.conf.php << "EOF"
 <?php
 // Zabbix GUI configuration file.
