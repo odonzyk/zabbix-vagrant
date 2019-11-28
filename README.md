@@ -38,6 +38,4 @@ Commands used in provision script are based on official documentation:
 * [Installation from packages → Debian/Ubuntu](https://www.zabbix.com/documentation/4.0/manual/installation/install_from_packages/debian_ubuntu)
 * [Installation from sources → Installing frontend](https://www.zabbix.com/documentation/4.0/manual/installation/install#installing_frontend)
 
-![alt text1][logo]
 
-[logo]: img/zabbix.png "Zabbix"
